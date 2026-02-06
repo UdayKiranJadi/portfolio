@@ -29,10 +29,12 @@ return() =>{
     <div className={`transition-all ${navBg ? "bg-[#0f142ed9] shadow-mdb ":"fixed"} duration-200 h-[12vh] z-[10000] fixed w-full`}>
         <div className='flex items-center h-fill justify-between w-[90%] mx-auto'>
             <div className='flex items-center space-x-2'>
+                {false && (
                 <div className='w-10 h-10 bg-white rounded-full flex items-center justify-center flex-col'>
                     <FaCode className='w-5 h-5 text-black'/>
 
-                </div>
+                </div>)
+                }
                 <h1 className='text-xl hidden sm:block md:text-2xl text-white font-bold'>Uday</h1>
 
             </div>
@@ -48,7 +50,17 @@ return() =>{
 
             </div>
             <div className='flex items-center space-x-4'>
-                <button className='px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2'>
+                
+                <button onClick={() =>
+    window.open(
+      "https://drive.google.com/uc?export=download&id=1he6lDNA5FvdDHmiwd9S9rfUpHUTUQ2O6",
+      "_blank",
+      "noopener,noreferrer"
+    )
+  }
+ className='px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900 transition-all duration-300 text-white flex items-center space-x-2'>
+                    
+                    
                     <BiDownload className='w-5 h-5' />
                     <span>Download CV</span>
                 </button>
