@@ -38,8 +38,8 @@ const Home = () => {
         <Resume/>
         <Projects/>
         <Skills/>
-        <ClientReview/>
-        <Blog/>
+        { false && (<ClientReview/>)}
+        {false && (<Blog/>)}
         <Contact/>
         </div>
   )

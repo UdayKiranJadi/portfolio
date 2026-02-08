@@ -1,1 +1,21 @@
 @import "tailwindcss";
+/* globals.css - smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+@keyframes skillMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.skill-marquee-track {
+  animation: skillMarquee 25s linear infinite;
+}
+
+.skill-marquee-track:hover {
+  animation-play-state: paused;
+}

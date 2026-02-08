@@ -4,11 +4,11 @@ export const Navlinks = [
     url: '#',
     label: "Home",
     },
-    { 
-    id:2,
-    url: '#',
-    label: "Services",
-    },
+   // { 
+  //  id:2,
+   // url: '#',
+   // label: "Services",
+   // },
         {
     id:3,
     url: '#',
@@ -24,11 +24,11 @@ export const Navlinks = [
     url: '#',
     label: "Skills",
     },
-    {
-    id:6,
-    url: '#',
-    label: "Testimonials",
-    },
+   // {
+    // id:6,
+    // url: '#',
+    // label: "Testimonials",
+    //},
     {
     id:7,
     url: '#',

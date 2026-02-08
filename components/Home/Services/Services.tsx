@@ -10,21 +10,21 @@ const Services = () => {
       </h1>
       <div className='w-[90%] sm:[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center'>
         <div data-aos="fade-right" data-aos-anchor-placement="top-center">
-          <ServiceCard icon="/images/s1.jpg" name="UI and UX" description="cvbnrxfvb"/>
+          <ServiceCard icon="/images/s1.png" name="UI/UX Design" description="Clean, responsive interfaces with TailwindCSS and React focused on usability, accessibility, and smooth user flows."/>
         </div>
 
         <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100">
-          <ServiceCard icon="/images/s2.png" name="WEb app" description="ghbhj"/>
+          <ServiceCard icon="/images/s2.png" name="Web Application Development" description="Modern web apps using React/Next.js with REST APIs fast performance, responsive layouts, and production-ready structure."/>
 
         </div>
         <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="200">
 
-          <ServiceCard icon="/images/s3.png" name="design and creativity " description="hgjh"/>
+          <ServiceCard icon="/images/s3.png" name="Product Design & Prototyping " description="From idea to clickable prototype wireframes, components, and polished UI that matches your brand and goals."/>
 
 
         </div>
         <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="300">
-          <ServiceCard icon="/images/s4.png" name="Developmnt" description="hjhjhjh"/>
+          <ServiceCard icon="/images/s4.png" name="Development" description="End-to-end features with Node/Express, databases, and integrate machine learning models for intelligent capabilities like prediction, classification, or automation built for scalability and maintainability."/>
         </div>
 
       </div>
