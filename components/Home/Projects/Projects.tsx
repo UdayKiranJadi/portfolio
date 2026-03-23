@@ -37,6 +37,26 @@ const Projects = () => {
             Next.js • Real-time Collaboration • Sessions • UI/UX
           </h1>
         </div>
+         {/* Project 3*/}
+
+         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+          <Link href="https://job-portral.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <Image src="/images/p2.png" alt="Job Project" width={800} height={650} className="rounded-lg" />
+          </Link>
+
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            <Link href="https://job-portral.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              Job Portal Project
+            </Link>
+          </h1>
+
+          <h1 className="pt-2 font-medium text-white/80">
+            MERN Stack • Authentication • Job Posting • Application Tracking
+          </h1>
+        </div>
+
+        
+        
 
         {false && (
           <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
