@@ -41,7 +41,7 @@ const Projects = () => {
 
          <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
           <Link href="https://job-portral.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <Image src="/images/p2.png" alt="Job Project" width={800} height={650} className="rounded-lg" />
+            <Image src="/images/image.png" alt="Job Project" width={800} height={650} className="rounded-lg" />
           </Link>
 
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
