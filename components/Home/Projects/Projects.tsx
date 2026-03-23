@@ -10,11 +10,19 @@ const Projects = () => {
       </h1>
 
       <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+
         {/* Project 1: CNN */}
         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="0">
-          <Image src="/images/p1.png" alt="CNN Project" width={800} height={650} className="rounded-lg" />
+          <Link href="https://cnn-project-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <Image src="/images/p1.png" alt="CNN Project" width={800} height={650} className="rounded-lg" />
+          </Link>
+
+          
           <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
-            CNN Image Classification Project
+            <Link href="https://cnn-project-nine.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              CNN Image Classification Project
+            </Link>
+            
           </h1>
           <h1 className="pt-2 font-medium text-white/80">
             Deep Learning • CNN • TensorFlow/PyTorch • Model Training
