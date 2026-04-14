@@ -62,6 +62,24 @@ const Projects = () => {
             MERN Stack • Authentication • Job Posting • Application Tracking
           </h1>
         </div>
+        {/* Project 4*/}
+
+         <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="0">
+          <Link href="https://chatappchat.vercel.app/auth" target="_blank" rel="noopener noreferrer">
+            <Image src="/images/imageCA.png" alt="CNN Project" width={800} height={650} className="rounded-lg" />
+          </Link>
+
+          
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            <Link href="https://chatappchat.vercel.app/auth" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              Real-Time Chat App
+            </Link>
+            
+          </h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            MERN Stack • JWT Authentication • Real-Time Messaging • Socket.IO • Redis
+          </h1>
+        </div>
 
         
         
