@@ -39,7 +39,7 @@ const Contact = () => {
 
           <div className="flex items-center mt-8 space-x-3">
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/uday-kiran-jadi/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-blue-800 transition-all duration-300"
@@ -49,7 +49,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/UdayKiranJadi"
               target="_blank"
               rel="noopener noreferrer"
               className="w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-blue-800 transition-all duration-300"

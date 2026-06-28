@@ -4,33 +4,27 @@ import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
-    <div className='pt-16 p-16'>
+    <div className='pt-20 pb-20 px-8'>
       <h1 className='text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white'>
-        Lets collborate and explore
+        What I <span className='text-cyan-300'>Do</span>
       </h1>
-      <div className='w-[90%] sm:[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center'>
+      <p className='text-center text-gray-400 mt-4 text-base max-w-xl mx-auto'>
+        I build products end-to-end — from clean UIs to scalable backends.
+      </p>
+      <div className='w-[90%] lg:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-16 items-start'>
         <div data-aos="fade-right" data-aos-anchor-placement="top-center">
-          <ServiceCard icon="/images/s1.png" name="UI/UX Design" description="Clean, responsive interfaces with TailwindCSS and React focused on usability, accessibility, and smooth user flows."/>
+          <ServiceCard icon="/images/s1.png" name="Frontend Development" description="Responsive, accessible UIs with React and Next.js. Pixel-perfect layouts with Tailwind CSS and smooth animations."/>
         </div>
-
         <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100">
-          <ServiceCard icon="/images/s2.png" name="Web Application Development" description="Modern web apps using React/Next.js with REST APIs fast performance, responsive layouts, and production-ready structure."/>
-
+          <ServiceCard icon="/images/s2.png" name="Backend & APIs" description="Robust REST APIs with Node.js and Express. Scalable databases, auth, and real-time features with Socket.IO and Redis."/>
         </div>
         <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="200">
-
-          <ServiceCard icon="/images/s3.png" name="Product Design & Prototyping " description="From idea to clickable prototype wireframes, components, and polished UI that matches your brand and goals."/>
-
-
+          <ServiceCard icon="/images/s3.png" name="Full-Stack Systems" description="End-to-end product development — from schema design to deployment. MERN stack with clean architecture and CI/CD."/>
         </div>
         <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="300">
-          <ServiceCard icon="/images/s4.png" name="Development" description="End-to-end features with Node/Express, databases, and integrate machine learning models for intelligent capabilities like prediction, classification, or automation built for scalability and maintainability."/>
+          <ServiceCard icon="/images/s4.png" name="AI / ML Integration" description="Integrating machine learning models into production apps — from training pipelines to real-time inference APIs."/>
         </div>
-
       </div>
-
-
-
     </div>
   )
 }

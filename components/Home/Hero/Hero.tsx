@@ -11,15 +11,16 @@ const Hero = () => {
         <ParticlesHero />
         <div className='relative z-10 flex flex-col items-center'>
             <Image src="/images/hi.png" alt="heroimage" width={300} height={300} className='rounded-full border-8 border-[#0c0c48aa]' data-aos="fade-up" />
-            <h1 data-aos="fade-up" data-aos-delay="200" className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-7 text-center font-bold tracking-wide'>Software Engineer <br /><span className='text-4xl text-cyan-200 mt-4 block'> Uday Kiran Jadi </span></h1>
+            <h1 data-aos="fade-up" data-aos-delay="200" className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-7 text-center font-bold tracking-wide'>Full Stack Developer <br /><span className='text-4xl text-cyan-200 mt-4 block'> Uday Kiran Jadi </span></h1>
             <h2 data-aos="fade-up" data-aos-delay="400" className='mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center'>
-                Hi I'am Uday - A Passionate 
+                Building
                 <span className='text-cyan-200 font-bold'>
                     <Typewriter options={{
                         strings:[
-                            "Machine Learning Engineer",
-                            "Backend Developer",
-                            "Full Stack Developer",
+                            "Full Stack Applications",
+                            "Real-Time Systems",
+                            "AI-Powered Products",
+                            "Scalable Backends",
                         ],
                         autoStart:true,
                         loop: true,
